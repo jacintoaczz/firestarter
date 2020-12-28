@@ -7,10 +7,10 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<!--<p align="center">
   <a href="https://github.com/jacintoaczz/firestarter.git">
     <img src="/src/assets/img/Angular - Firebase.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Firestarter - An Angular|Firebase full-stack Kanban (看板) storyboard PWA inspired by <a href="https://trello.com/es">Trello</a>.</h3>
 
@@ -55,7 +55,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This project is created as a practice project, as i had very little experience on Angular apps development.
+This project is created as a practice project, as i had very little experience on Angular apps development. All changes to the repo will be added on their own branch, this way anyone can see the evolution of the project.
 
 ### Built With
 
