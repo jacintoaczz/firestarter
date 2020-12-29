@@ -1,6 +1,7 @@
 // Module where we keep all the components that will be shared throught many places in the app.
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-
+import { AppRoutingModule } from '../app-routing.module';
 // Material design components
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -17,6 +18,8 @@ import { ShellComponent } from './components/shell/shell.component';
 
 const components = [ShellComponent];
 const modules = [
+  AppRoutingModule,
+  CommonModule,
   MatButtonModule,
   MatToolbarModule,
   MatIconModule,
