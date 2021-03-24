@@ -1,12 +1,17 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import "~@angular/material/theming";
+@import "@angular/material/prebuilt-themes/purple-green.css";
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
 // have to load a single css file for Angular Material in your app.
 // Be sure that you only ever include this mixin once!
-@include mat-core();
+$custom-typography: mat-typography-config(
+  $font-family: "Montserrat, sans-serif",
+);
+
+@include mat-core($custom-typography);
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
@@ -19,7 +24,7 @@ $firestarter-warn: mat-palette($mat-red);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$firestarter-theme: mat-light-theme(
+$firestarter-theme: mat-dark-theme(
   (
     color: (
       primary: $firestarter-primary,
