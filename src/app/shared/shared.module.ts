@@ -1,6 +1,7 @@
 // Module where we keep all the components that will be shared throught many places in the app.
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 // Material design components
 import { MatButtonModule } from '@angular/material/button';
@@ -29,6 +30,7 @@ const modules = [
   MatFormFieldModule,
   MatInputModule,
   MatSnackBarModule,
+  RouterModule,
 ];
 
 @NgModule({
