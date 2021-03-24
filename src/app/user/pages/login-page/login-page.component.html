@@ -6,6 +6,10 @@
       <img src="assets/img/google-logo.svg" alt="google_logo" />
       Login with Google
     </button>
+
+    <h5>OR</h5>
+
+    <app-email-login></app-email-login>
   </div>
 
   <div *ngIf="_afAuth.authState | async as user">
