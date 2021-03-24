@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firestarter-6835a": {
+      "hosting": {
+        "firestarter": [
+          "firestarter-6835a"
+        ]
+      }
+    }
+  }
+}
