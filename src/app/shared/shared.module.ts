@@ -5,8 +5,9 @@ import { RouterModule } from '@angular/router';
 import { MaterialModule } from './material/material.module';
 
 import { ShellComponent } from './components/shell/shell.component';
+import { DeleteButtonComponent } from './delete-button/delete-button.component';
 
-const components = [ShellComponent];
+const components = [DeleteButtonComponent, ShellComponent];
 const modules = [CommonModule, MaterialModule, RouterModule];
 
 @NgModule({
