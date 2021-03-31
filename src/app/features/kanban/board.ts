@@ -1,11 +1,11 @@
 export interface Board {
-  id?: string;
+  id?: string | undefined;
   title?: string;
   priority: number;
   tasks: Task[];
 }
 
 export interface Task {
-  label: 'pruple' | 'blue' | 'green' | 'yellow' | 'red' | 'gray';
+  label: 'purple' | 'blue' | 'green' | 'yellow' | 'red' | 'gray';
   description?: string;
 }
