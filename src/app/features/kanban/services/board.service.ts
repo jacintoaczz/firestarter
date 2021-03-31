@@ -30,7 +30,7 @@ export class BoardService {
   /**
    *  Delete the chosen board.
    */
-  deleteBoard(boardId: string) {
+  deleteBoard(boardId: string | undefined) {
     return this._database.collection('boards').doc(boardId).delete();
   }
 
