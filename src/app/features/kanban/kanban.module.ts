@@ -21,7 +21,8 @@ const modules = [
 ];
 
 @NgModule({
-  declarations: [...components, BoardDialogComponent, TaskDialogComponent],
+  declarations: [...components],
   imports: [...modules],
+  entryComponents: [BoardDialogComponent, TaskDialogComponent],
 })
 export class KanbanModule {}
