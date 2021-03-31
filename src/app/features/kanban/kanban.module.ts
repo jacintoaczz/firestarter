@@ -7,6 +7,8 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatDialogModule } from '@angular/material/dialog';
 import { BoardComponent } from './components/board/board.component';
 import { BoardListComponent } from './components/board-list/board-list.component';
+import { BoardDialogComponent } from './dialogs/board-dialog.component';
+import { TaskDialogComponent } from './dialogs/task-dialog.component';
 
 const components = [BoardComponent, BoardListComponent];
 const modules = [
@@ -19,7 +21,7 @@ const modules = [
 ];
 
 @NgModule({
-  declarations: [...components],
+  declarations: [...components, BoardDialogComponent, TaskDialogComponent],
   imports: [...modules],
 })
 export class KanbanModule {}
